@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testing" thread-count="1" parallel="None">
+    <test name="test">
+	  <classes>
+	    <class name="sample.Search"/>
+	  </classes>
+	</test>
+	
+</suite>
