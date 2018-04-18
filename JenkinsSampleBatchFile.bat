@@ -1,5 +1,1 @@
-set projectLocation=**\JenkinsSampleBatchFile
-cd %projectLocation%
-set classpath=%projectLocation%\bin;%projectLocation%\lib\*
-java org.testng.TestNG %projectLocation%\testng.xml
-pause
+java -cp bin;libs/* org.testng.TestNG testng.xml
